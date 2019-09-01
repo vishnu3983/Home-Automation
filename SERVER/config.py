@@ -2,7 +2,7 @@
 DEBUG = True
 SECRET_KEY = 'very_big_secret'
 HOST = '0.0.0.0'
-PORT = 80
+PORT = 5000
 
 #Mqtt
 MQTT_BROKER_URL = 'broker.mqtt-dashboard.com'
@@ -17,3 +17,4 @@ MQTT_TLS_ENABLED = False  # set TLS to disabled for testing purposes
 MONGODB_DB = 'SRI'
 MONGODB_HOST = 'localhost'
 MONGODB_PORT = 27017
+

@@ -6,13 +6,12 @@ class Node(db.Document):
     name = db.StringField()
     location = db.StringField()
     numberOfDevices = db.IntField(default=0)
-    status = db.StringField()
     meta = {'collection': 'node'}
 	
 class Device(db.Document):
     deviceID = db.StringField()
     name = db.StringField()
-    nodeID = db.StringField()
+    nodeName = db.StringField()
     location = db.StringField()
     status = db.IntField(default=0)
     meta = {'collection': 'device'}
